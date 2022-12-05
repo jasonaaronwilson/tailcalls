@@ -20,6 +20,8 @@ Here is an example of an unoptimized gcc build blowing out the stack:
      bblock_2 0
      Segmentation fault (core dumped)
 
+gcc with -O2 does however work properly.
+
      [tailcalls]$ ./gcc-build-c-opt 
      bblock_1 0
      bblock_2 0
